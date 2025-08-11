@@ -1,0 +1,80 @@
+
+
+# ===============================================
+#  Python & Virtual Environments
+# ===============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments - Never track dependencies directly
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===============================================
+#  Testing (Pytest & Coverage.py) 🧪
+# ===============================================
+# Cache files from Pytest
+.pytest_cache/
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# tox automation environment
+.tox/
+
+
+# ===============================================
+#  Databases (DuckDB) 🦆
+# ===============================================
+# Never commit your database files directly.
+# They are binary, change frequently, and can get large.
+*.duckdb
+*.duckdb.wal
+
+
+# Also ignore other common database file extensions
+*.db
+*.db.wal
+*.sqlite
+*.sqlite3
+
+
+# ===============================================
+#  Data & Output Files
+# ===============================================
+*.csv
+*.parquet
+
+
+
+# ===============================================
+#  IDE / Editor / OS Specific
+# ===============================================
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
