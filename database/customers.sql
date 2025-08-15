@@ -25,6 +25,11 @@ CREATE OR REPLACE TABLE FCT_CUSTOMER_PURCHASES AS
         ('txn-bbb-013', 'cust-102', 'Cinnamon Raisin Bagel', 2, 7.00, '2025-07-18 10:25:00'::TIMESTAMP),
 
         -- Customer 103: Purchases once a month
-        ('txn-ccc-014', 'cust-103', 'Dozen Assorted Bagels', 1, 24.00, '2025-07-15 16:30:00'::TIMESTAMP)
+        ('txn-ccc-014', 'cust-103', 'Dozen Assorted Bagels', 1, 24.00, '2025-07-15 16:30:00'::TIMESTAMP),
+
+        ('txn-ccc-015', 'cust-104', 'Plan Bagel', 1, 4.00, '2025-08-15 16:30:00'::TIMESTAMP),
+
+        ('txn-ccc-016', 'cust-105', 'Plan Bagel', 1, 4.00, '2025-09-01 16:30:00'::TIMESTAMP),
+        ('txn-ccc-017', 'cust-106', 'Plan Bagel', 2, 8.00, '2025-09-02 16:45:00'::TIMESTAMP)
     )
 ;
