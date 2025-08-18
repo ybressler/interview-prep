@@ -30,6 +30,16 @@ CREATE OR REPLACE TABLE FCT_CUSTOMER_PURCHASES AS
         ('txn-ccc-015', 'cust-104', 'Plan Bagel', 1, 4.00, '2025-08-15 16:30:00'::TIMESTAMP),
 
         ('txn-ccc-016', 'cust-105', 'Plan Bagel', 1, 4.00, '2025-09-01 16:30:00'::TIMESTAMP),
-        ('txn-ccc-017', 'cust-106', 'Plan Bagel', 2, 8.00, '2025-09-02 16:45:00'::TIMESTAMP)
+        ('txn-ccc-017', 'cust-106', 'Plan Bagel', 2, 8.00, '2025-09-02 16:45:00'::TIMESTAMP),
+
+        -- Customers for monthly analysis (Q4)
+        -- Big spender
+        ('txn-ccc-018', 'cust-107', 'Plan Bagel', 12, 24.00, '2025-9-15 16:45:00'::TIMESTAMP),
+        ('txn-ccc-019', 'cust-107', 'Plan Bagel', 12, 24.00, '2025-10-15 16:45:00'::TIMESTAMP),
+        ('txn-ccc-020', 'cust-107', 'Plan Bagel', 12, 24.00, '2025-11-15 16:45:00'::TIMESTAMP),
+        -- Small spender
+        ('txn-ccc-021', 'cust-108', 'Plan Bagel', 1, 3.00, '2025-9-15 16:47:00'::TIMESTAMP),
+        ('txn-ccc-022', 'cust-108', 'Plan Bagel', 1, 3.00, '2025-10-15 16:47:00'::TIMESTAMP),
+        ('txn-ccc-023', 'cust-108', 'Plan Bagel', 1, 3.00, '2025-11-15 16:47:00'::TIMESTAMP)
     )
 ;
