@@ -180,3 +180,6 @@ Idempotency: The pipeline can be safely re-run for a specific day. Because it's 
 
 # Question 5: Customer Loyalty
 Who are the most loyal customers? People who buy everything bagels? Or plain bagels?
+
+# Question 6: Rolling Average
+Show which weeks have an average > 3 week rolling average.
