@@ -78,3 +78,4 @@ htmlcov/
 
 # macOS
 .DS_Store
+/actual_interviews/
