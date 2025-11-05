@@ -1,3 +1,4 @@
+-- Solve for DUCKDB
 -- This is my long winded answer
 WITH ORDERED_EVENTS AS (
     SELECT
